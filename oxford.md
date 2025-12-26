@@ -1,4 +1,4 @@
-You're absolutely right! Let's rewrite the solution with proper LaTeX-style markdown for mathematical expressions. Here's the corrected version:
+You're right—let's use the correct LaTeX-style markdown with `$` symbols for inline math and `$$` for display math. Here's the properly formatted solution:
 
 ---
 
@@ -6,12 +6,12 @@ You're absolutely right! Let's rewrite the solution with proper LaTeX-style mark
 
 The simultaneous equations in \( x, y \),
 
-\[
-(\cos \theta) x - (\sin \theta) y = 2
-\]
-\[
-(\sin \theta) x + (\cos \theta) y = 1
-\]
+$$
+(\cos \theta) \, x - (\sin \theta) \, y = 2
+$$
+$$
+(\sin \theta) \, x + (\cos \theta) \, y = 1
+$$
 
 are solvable:
 
@@ -31,18 +31,18 @@ To determine for which values of \( \theta \) the system of equations is solvabl
 
 The coefficient matrix \( A \) is:
 
-\[
+$$
 A = \begin{bmatrix}
 \cos \theta & -\sin \theta \\
 \sin \theta & \cos \theta
 \end{bmatrix}
-\]
+$$
 
 The determinant of \( A \), denoted as \( \det(A) \), is:
 
-\[
+$$
 \det(A) = (\cos \theta)(\cos \theta) - (-\sin \theta)(\sin \theta) = \cos^2 \theta + \sin^2 \theta = 1
-\]
+$$
 
 Since \( \cos^2 \theta + \sin^2 \theta = 1 \) for all \( \theta \), the determinant is always 1, which is non-zero.
 
